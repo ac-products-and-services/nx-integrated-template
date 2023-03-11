@@ -31,6 +31,13 @@ Lerna seems to be a more robust solution to deal with publishing and versioning.
 
 It seams like we would need to switch to learna as main tool, and use nx as side-car tool. Lets leave it at that for now and go back to other options.
 
+[semantic-release](https://medium.com/@guysenpai89/nx-monorepo-publish-libraries-to-github-packages-with-github-actions-semantic-release-970883f2786a)
+
+References:
+
+- https://medium.com/@guysenpai89/nx-monorepo-publish-libraries-to-github-packages-with-github-actions-semantic-release-970883f2786a
+- https://medium.com/@guysenpai89/nx-monorepo-publish-your-libraries-to-github-packages-with-github-actions-semantic-release-5f2c3fdffaa0
+
 References:
 
 - https://nx.dev/recipes/adopting-nx/lerna-and-nx#version-management-&-publishing

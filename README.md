@@ -18,7 +18,13 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
 
 ## Semver
 
+[@jscutlery/semver](https://github.com/jscutlery/semver)
+
+After workspace.json was deprecated the main command do not work properly;
+
+- https://github.com/jscutlery/semver/issues/547
+- https://github.com/jscutlery/semver/issues/408
+
 References:
 
 - https://nx.dev/recipes/adopting-nx/lerna-and-nx#version-management-&-publishing
-- https://github.com/jscutlery/semver

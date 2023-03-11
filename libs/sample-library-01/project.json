@@ -1,0 +1,48 @@
+{
+  "name": "sample-library-01",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/sample-library-01/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/sample-library-01",
+        "main": "libs/sample-library-01/src/index.ts",
+        "tsConfig": "libs/sample-library-01/tsconfig.lib.json",
+        "assets": ["libs/sample-library-01/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/sample-library-01/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "libs/sample-library-01/jest.config.ts",
+        "passWithNoTests": true
+      },
+      "configurations": {
+        "ci": {
+          "ci": true,
+          "codeCoverage": true
+        }
+      }
+    },
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "baseBranch": "main",
+        "preset": "conventional",
+        "tagPrefix": "${projectName}@"
+      }
+    }
+  },
+  "tags": []
+}

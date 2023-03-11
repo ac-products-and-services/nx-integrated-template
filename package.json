@@ -9,7 +9,9 @@
     "release": "semantic-release",
     "release:init": "nx g @jscutlery/semver:install",
     "release:affected": "nx affected --target version",
-    "release:all": "nx run-many --target=version"
+    "release:all": "nx run-many --target=version",
+    "postversion": "affected:build",
+    "publish:libs": "lerna publish"
   },
   "private": true,
   "dependencies": {
@@ -39,6 +41,7 @@
     "eslint-config-prettier": "8.1.0",
     "jest": "28.1.1",
     "jest-environment-jsdom": "28.1.1",
+    "lerna": "^6.5.1",
     "nx": "15.6.3",
     "prettier": "^2.6.2",
     "semantic-release": "^20.1.1",

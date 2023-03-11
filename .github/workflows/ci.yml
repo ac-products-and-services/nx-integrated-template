@@ -130,11 +130,13 @@ jobs:
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         # run: |
         #   npx nx affected --target release --all
+        # run: |
+        #   npx semantic-release
         run: |
-          npx semantic-release
-      - name: Build packages
-        run: yarn nx run-many --target=build --all --parallel --maxParallel=3
-      - name: Publish package to GitHub Packages
-        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> .npmrc && yarn --cwd dist/libs/sample-library-01 publish --access restricted # https://youtu.be/2-77KhGWlRg?t=163
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          yarn publish:libs
+      # - name: Build packages
+      #   run: yarn nx run-many --target=build --all --parallel --maxParallel=3
+      # - name: Publish package to GitHub Packages
+      #   run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> .npmrc && yarn --cwd dist/libs/sample-library-01 publish --access restricted # https://youtu.be/2-77KhGWlRg?t=163
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

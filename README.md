@@ -31,6 +31,13 @@ Lerna seems to be a more robust solution to deal with publishing and versioning.
 
 It seams like we would need to switch to learna as main tool, and use nx as side-car tool. Lets leave it at that for now and go back to other options.
 
+Lets see if [sonigaurav119](https://sonigaurav119.medium.com/how-i-use-lerna-with-nx-to-automate-the-versioning-1fada7f7f64f) could help us here... Working on it.
+
+References:
+
+- https://sonigaurav119.medium.com/how-i-use-lerna-with-nx-to-automate-the-versioning-1fada7f7f64f
+- https://github.com/gauravsoni119/flair
+
 [semantic-release-plus](https://medium.com/@guysenpai89/nx-monorepo-publish-libraries-to-github-packages-with-github-actions-semantic-release-970883f2786a)
 
 It was promising, but ended up being a bit complicated and frustrating. Besides, we would introduce a dependency that is not very well maintained. The Medium articles by @guysenpaid89 helped a lot with the github actions though.

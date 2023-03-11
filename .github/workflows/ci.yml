@@ -19,7 +19,7 @@ jobs:
       matrix:
         node-version: [18]
         npm-version: [8]
-        yarn-version: ['1.22.x']
+        yarn-version: ["1.22.x"]
         pnpm-version: [7]
     steps:
       - name: Checkout [Pull Request]
@@ -50,15 +50,15 @@ jobs:
       - name: Set node/npm/yarn versions using volta
         uses: volta-cli/action@v3
         with:
-          node-version: '${{ matrix.node-version }}'
-          npm-version: '${{ matrix.npm-version }}'
-          yarn-version: '${{ matrix.yarn-version }}'
+          node-version: "${{ matrix.node-version }}"
+          npm-version: "${{ matrix.npm-version }}"
+          yarn-version: "${{ matrix.yarn-version }}"
 
       - name: Install PNPM
         if: steps.package_manager.outputs.name == 'pnpm'
         uses: pnpm/action-setup@v2.2.1
         with:
-          version: '${{ matrix.pnpm-version }}'
+          version: "${{ matrix.pnpm-version }}"
 
       - name: Print node/npm/yarn/pnpm versions
         id: versions
@@ -135,6 +135,6 @@ jobs:
       - name: Build packages
         run: yarn nx run-many --target=build --all --parallel --maxParallel=3
       - name: Publish package to GitHub Packages
-        run: echo "@amaralc:registry=https://npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> .npmrc && yarn --cwd dist/libs/sample-library-01 publish --access restricted
+        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> .npmrc && yarn --cwd dist/libs/sample-library-01 publish --access restricted # https://youtu.be/2-77KhGWlRg?t=163
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

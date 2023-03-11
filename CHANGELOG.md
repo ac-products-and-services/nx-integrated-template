@@ -1,3 +1,10 @@
+## [1.0.6](https://github.com/amaralc/nx-integrated-template/compare/v1.0.5...v1.0.6) (2023-03-11)
+
+
+### Bug Fixes
+
+* adjust commit message ([4c91992](https://github.com/amaralc/nx-integrated-template/commit/4c91992b57f2da3fd71cf2e6342ba3edd0db1773))
+
 ## [1.0.5](https://github.com/amaralc/nx-integrated-template/compare/v1.0.4...v1.0.5) (2023-03-11)
 
 ## [1.0.4](https://github.com/amaralc/nx-integrated-template/compare/v1.0.3...v1.0.4) (2023-03-11)

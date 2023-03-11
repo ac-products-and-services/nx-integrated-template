@@ -2,12 +2,6 @@
   "name": "nx-integrated-template",
   "version": "0.0.1",
   "license": "MIT",
-  "release": {
-    "branches": [
-      "main",
-      "next"
-    ]
-  },
   "scripts": {
     "prepare": "husky install",
     "pre-commit": "yarn test:unit",
@@ -30,6 +24,12 @@
     "@nrwl/js": "15.6.3",
     "@nrwl/linter": "15.6.3",
     "@nrwl/workspace": "15.6.3",
+    "@semantic-release/changelog": "^6.0.2",
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^8.0.7",
+    "@semantic-release/npm": "^9.0.2",
+    "@semantic-release/release-notes-generator": "^10.0.3",
     "@types/jest": "28.1.1",
     "@types/node": "16.11.7",
     "@typescript-eslint/eslint-plugin": "^5.36.1",

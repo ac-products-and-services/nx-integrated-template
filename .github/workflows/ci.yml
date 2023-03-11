@@ -123,7 +123,7 @@ jobs:
           npx nx affected --target test --parallel 3 --ci --code-coverage
           npx nx affected --target build --parallel 3
 
-      - name: Release
+      - name: Release Libs
         if: ${{ success() && (github.event_name != 'pull_request' || github.event.action == 'closed' && github.event.pull_request.merged == true) }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -137,6 +137,16 @@ jobs:
           git config user.email "${{ github.actor}}@users.noreply.github.com"
           echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" >> .npmrc
           yarn publish:libs
+
+      - name: Release Libs
+        if: ${{ success() && (github.event_name != 'pull_request' || github.event.action == 'closed' && github.event.pull_request.merged == true) }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # run: |
+        #   npx nx affected --target release --all
+        run: |
+          npx semantic-release
       # - name: Build packages
       #   run: yarn nx run-many --target=build --all --parallel --maxParallel=3
       # - name: Publish package to GitHub Packages

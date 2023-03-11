@@ -1,5 +1,9 @@
 {
   "name": "@amaralc/sample-library-01",
+  "author": {
+    "name": "Calil Amaral",
+    "email": "amaral.calil@gmail.com"
+  },
   "version": "1.2.0",
   "type": "commonjs",
   "license": "MIT",

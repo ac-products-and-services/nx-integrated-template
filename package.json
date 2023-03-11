@@ -10,7 +10,7 @@
     "release:init": "nx g @jscutlery/semver:install",
     "release:affected": "nx affected --target version",
     "release:all": "nx run-many --target=version",
-    "postversion": "affected:build",
+    "postversion": "nx affected:build",
     "publish:libs": "lerna publish"
   },
   "private": true,

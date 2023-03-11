@@ -1,9 +1,9 @@
-name: CI
+name: workflow
 
 on:
   push:
     branches:
-      - main
+      - workflow
   pull_request:
 
 env:

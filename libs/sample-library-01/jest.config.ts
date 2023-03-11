@@ -1,6 +1,6 @@
 /* eslint-disable */
 export default {
-  displayName: 'sample-library',
+  displayName: 'sample-library-01',
   preset: '../../jest.preset.js',
   globals: {
     'ts-jest': {
@@ -12,5 +12,5 @@ export default {
     '^.+\\.[tj]sx?$': 'ts-jest',
   },
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx'],
-  coverageDirectory: '../../coverage/libs/sample-library',
+  coverageDirectory: '../../coverage/libs/sample-library-01',
 };

@@ -15,7 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@template-org/sample-library": ["libs/sample-library/src/index.ts"]
+      "@template-org/sample-library-01": ["libs/sample-library-01/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

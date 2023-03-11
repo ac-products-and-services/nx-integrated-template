@@ -133,6 +133,8 @@ jobs:
         # run: |
         #   npx semantic-release
         run: |
+          git config user.name "${{ github.actor }}"
+          git config user.email "${{ github.actor}}@users.noreply.github.com"
           yarn publish:libs
       # - name: Build packages
       #   run: yarn nx run-many --target=build --all --parallel --maxParallel=3

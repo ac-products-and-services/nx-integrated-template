@@ -37,6 +37,7 @@ References:
 
 - https://sonigaurav119.medium.com/how-i-use-lerna-with-nx-to-automate-the-versioning-1fada7f7f64f
 - https://github.com/gauravsoni119/flair
+- https://dev.to/xcanchal/automatic-versioning-in-a-lerna-monorepo-using-github-actions-4hij
 
 [semantic-release-plus](https://medium.com/@guysenpai89/nx-monorepo-publish-libraries-to-github-packages-with-github-actions-semantic-release-970883f2786a)
 

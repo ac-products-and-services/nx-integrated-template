@@ -6,7 +6,9 @@
     "prepare": "husky install",
     "pre-commit": "yarn test:unit",
     "test:unit": "yarn nx run-many --target=test --all=true",
-    "release:affected": "nx affected --target version"
+    "release:init": "nx g @jscutlery/semver:install",
+    "release:affected": "nx affected --target version",
+    "release:all": "nx run-many --target=version"
   },
   "private": true,
   "dependencies": {

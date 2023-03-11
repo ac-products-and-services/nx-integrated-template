@@ -1,7 +1,8 @@
 {
-  "name": "@ac/sample-library-02",
+  "name": "@amaralc/sample-library-02",
   "version": "1.1.0",
   "type": "commonjs",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/amaralc/nx-integrated-template.git",

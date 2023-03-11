@@ -33,6 +33,8 @@ It seams like we would need to switch to learna as main tool, and use nx as side
 
 [semantic-release-plus](https://medium.com/@guysenpai89/nx-monorepo-publish-libraries-to-github-packages-with-github-actions-semantic-release-970883f2786a)
 
+It was promising, but ended up being a bit complicated and frustrating. Besides, we would introduce a dependency that is not very well maintained. The Medium articles by @guysenpaid89 helped a lot with the github actions though.
+
 References:
 
 - https://medium.com/@guysenpai89/nx-monorepo-publish-libraries-to-github-packages-with-github-actions-semantic-release-970883f2786a
@@ -40,6 +42,12 @@ References:
 - https://medium.com/@guysenpai89/nx-monorepo-publish-your-libraries-to-github-packages-with-github-actions-semantic-release-fa9822467b24
 
 [semantic-release](https://github.com/semantic-release/semantic-release)
+
+We ended up going back to a single release for the entire monorepo, using semantic release for now. I still do not quite understand how will we handle the multi-package setup. How to change the version number for each one when publishing to github's npm registry?
+
+References:
+
+- https://dev.to/antongolub/the-chronicles-of-semantic-release-and-monorepos-5cfc
 
 References:
 

@@ -15,8 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@ac/sample-library-02": ["libs/sample-library-02/src/index.ts"],
-      "@template-org/sample-library-01": ["libs/sample-library-01/src/index.ts"]
+      "@amaralc/sample-library-02": ["libs/sample-library-02/src/index.ts"],
+      "@amaralc/sample-library-01": ["libs/sample-library-01/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

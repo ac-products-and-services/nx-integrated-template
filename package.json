@@ -13,6 +13,8 @@
   "private": true,
   "dependencies": {
     "husky": "^8.0.3",
+    "semantic-release-npm-github-publish": "^1.5.4",
+    "semantic-release-plus": "^20.0.0",
     "tslib": "^2.3.0"
   },
   "devDependencies": {

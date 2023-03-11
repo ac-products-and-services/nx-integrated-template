@@ -1,4 +1,13 @@
 {
   "name": "@template-org/sample-library-01",
-  "version": "0.0.1"
+  "version": "0.0.0-semantic-release",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amaralc/nx-integrated-template.git",
+    "directory": "libs/sample-library-01"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }

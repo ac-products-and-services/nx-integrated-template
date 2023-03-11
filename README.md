@@ -37,6 +37,7 @@ References:
 
 - https://medium.com/@guysenpai89/nx-monorepo-publish-libraries-to-github-packages-with-github-actions-semantic-release-970883f2786a
 - https://medium.com/@guysenpai89/nx-monorepo-publish-your-libraries-to-github-packages-with-github-actions-semantic-release-5f2c3fdffaa0
+- https://medium.com/@guysenpai89/nx-monorepo-publish-your-libraries-to-github-packages-with-github-actions-semantic-release-fa9822467b24
 
 References:
 

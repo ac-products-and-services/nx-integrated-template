@@ -25,6 +25,12 @@ After workspace.json was deprecated the main command do not work properly;
 - https://github.com/jscutlery/semver/issues/547
 - https://github.com/jscutlery/semver/issues/408
 
+[lerna](https://lerna.js.org/docs/getting-started)
+
+Lerna seems to be a more robust solution to deal with publishing and versioning. Besides, Nx team now is the official maintainer of Lerna, what gives us more assurance that the integration between both tools might be trustworthy.
+
+It seams like we would need to switch to learna as main tool, and use nx as side-car tool. Lets leave it at that for now and go back to other options.
+
 References:
 
 - https://nx.dev/recipes/adopting-nx/lerna-and-nx#version-management-&-publishing

@@ -15,3 +15,10 @@ Run `npx nx connect-to-nx-cloud` to enable [remote caching](https://nx.app) and 
 ## Further help
 
 Visit the [Nx Documentation](https://nx.dev) to learn more.
+
+## Semver
+
+References:
+
+- https://nx.dev/recipes/adopting-nx/lerna-and-nx#version-management-&-publishing
+- https://github.com/jscutlery/semver

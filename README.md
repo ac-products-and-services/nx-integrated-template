@@ -34,6 +34,7 @@ It seams like we would need to switch to learna as main tool, and use nx as side
 Lets see if [sonigaurav119](https://sonigaurav119.medium.com/how-i-use-lerna-with-nx-to-automate-the-versioning-1fada7f7f64f) could help us here... Working on it.
 
 It worked! Now fixing some details, such as [version bumping](https://github.com/lerna/lerna/issues/2668) and other minor issues...
+Maybe [this solution](https://github.com/lerna/lerna/issues/1273) works...
 
 References:
 

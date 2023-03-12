@@ -1,3 +1,14 @@
+## [3.0.0](https://github.com/amaralc/nx-integrated-template/compare/v2.0.0...v3.0.0) (2023-03-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* **lerna:** force conventional commits
+
+### Features
+
+* **lerna:** force conventional commits ([364fcdb](https://github.com/amaralc/nx-integrated-template/commit/364fcdbdf53d774c20f21dd52b30aea7e8602a78))
+
 ## [2.0.0](https://github.com/amaralc/nx-integrated-template/compare/v1.0.7...v2.0.0) (2023-03-12)
 
 

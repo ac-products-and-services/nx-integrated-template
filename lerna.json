@@ -1,5 +1,5 @@
 {
-  "packages": ["libs/*"],
+  "packages": [".", "libs/*"],
   "version": "independent",
   "command": {
     "changelogPreset": {
@@ -11,7 +11,7 @@
     },
     "version": {
       "conventionalCommits": true,
-      "message": "chore(release): publish %s [skip ci]"
+      "message": "chore(release): publish [skip ci]"
     }
   }
 }

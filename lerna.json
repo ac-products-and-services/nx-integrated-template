@@ -2,11 +2,15 @@
   "packages": ["libs/*"],
   "version": "independent",
   "command": {
+    "changelogPreset": {
+      "name": "conventionalcommits"
+    },
     "publish": {
       "conventionalCommits": true,
       "yes": true
     },
     "version": {
+      "conventionalCommits": true,
       "message": "chore(release): publish %s [skip ci]"
     }
   }

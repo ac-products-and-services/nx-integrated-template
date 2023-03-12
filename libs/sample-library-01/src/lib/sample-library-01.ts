@@ -1,4 +1,5 @@
+console.log('sample-library-01:fix');
+
 export function sampleLibrary01(): string {
-  console.log('breaking');
   return 'sample-library-01';
 }

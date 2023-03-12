@@ -40,8 +40,14 @@ Issues:
 
 - Minor and major versions are not consistently created. Only patch versions are created.
 
-Dry run: https://github.com/newrelic/gatsby-theme-newrelic/pull/789
-Conventional commit version bumping: https://github.com/lerna/lerna/issues/2668#issuecomment-1351291845
+Dry run:
+
+- https://github.com/newrelic/gatsby-theme-newrelic/pull/789
+
+Conventional commit version bumping:
+
+- https://github.com/lerna/lerna/issues/2668#issuecomment-1351291845
+- https://github.com/lerna/lerna/issues/2668#issuecomment-1465169232 (solution)
 
 References:
 

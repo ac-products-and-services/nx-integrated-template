@@ -12,8 +12,8 @@
     "release:all": "nx run-many --target=version",
     "postversion": "nx affected:build",
     "publish:libs": "lerna publish --conventional-commits --yes",
-    "publish:libs:dry-run": "echo 'Dry run...\n' && lerna publish --no-git-tag-version --no-push --dist-tag beta",
-    "publish:libs:dry-run:tag": "echo 'Dry run...\n' && lerna publish --no-push --dist-tag beta"
+    "publish:libs:dry-run": "echo 'Dry run...\n' && lerna publish --conventional-commits --changelog-preset conventionalcommits --no-git-tag-version --no-push --dist-tag beta",
+    "publish:libs:dry-run:tag": "echo 'Dry run...\n' && lerna publish --conventional-commits --changelog-preset conventionalcommits --no-push --dist-tag beta"
   },
   "private": true,
   "dependencies": {

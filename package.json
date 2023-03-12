@@ -11,7 +11,7 @@
     "release:affected": "nx affected --target version",
     "release:all": "nx run-many --target=version",
     "postversion": "nx affected:build",
-    "publish:libs": "lerna publish"
+    "publish:libs": "lerna publish --conventional-commits --yes"
   },
   "private": true,
   "dependencies": {

@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.0](https://github.com/amaralc/nx-integrated-template/compare/nx-lerna-template@1.0.1...nx-lerna-template@1.1.0) (2023-03-12)
+
+### Features
+
+- add feature to lib 2 ([f20459e](https://github.com/amaralc/nx-integrated-template/commit/f20459ebe81b3132eded8d47df2ea477a91c66a9))
+
+### Bug Fixes
+
+- add fix to lib 1 ([ad14f1f](https://github.com/amaralc/nx-integrated-template/commit/ad14f1fdaa36cbdac5a431eda5063287afe5dbf8))
+
+### Reverts
+
+- Revert "ci: use node 16" ([be1cdc7](https://github.com/amaralc/nx-integrated-template/commit/be1cdc74ae6ab36d79345de58c03629ae45717ce))
+
 ## 1.0.1 (2023-03-12)
 
 ### ⚠ BREAKING CHANGES

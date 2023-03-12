@@ -40,6 +40,10 @@ Issues:
 
 - Minor and major versions are not consistently created. Only patch versions are created.
 
+Dry run:
+
+- https://github.com/newrelic/gatsby-theme-newrelic/pull/789
+
 References:
 
 - https://sonigaurav119.medium.com/how-i-use-lerna-with-nx-to-automate-the-versioning-1fada7f7f64f

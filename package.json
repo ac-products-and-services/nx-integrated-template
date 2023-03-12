@@ -11,7 +11,8 @@
     "release:affected": "nx affected --target version",
     "release:all": "nx run-many --target=version",
     "postversion": "nx affected:build",
-    "publish:libs": "lerna publish --conventional-commits --yes"
+    "publish:libs": "lerna publish --conventional-commits --yes",
+    "publish:libs:dry-run": "echo 'Dry run...\n' && lerna publish patch --no-git-tag-version --no-push --dist-tag beta"
   },
   "private": true,
   "dependencies": {

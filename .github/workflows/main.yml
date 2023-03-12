@@ -1,10 +1,17 @@
+# References:
+
+# - https://github.com/guysenpai/nx-workspace-core
+# - https://medium.com/@guysenpai89/nx-monorepo-publish-libraries-to-github-packages-with-github-actions-semantic-release-970883f2786a
+# - https://medium.com/@guysenpai89/nx-monorepo-publish-your-libraries-to-github-packages-with-github-actions-semantic-release-5f2c3fdffaa0
+# - https://medium.com/@guysenpai89/nx-monorepo-publish-your-libraries-to-github-packages-with-github-actions-semantic-release-fa9822467b24
+
 name: CI
 
 on:
   push:
     branches:
       - main
-  pull_request:
+  # pull_request:
 
 env:
   HUSKY: 0
@@ -22,13 +29,13 @@ jobs:
         yarn-version: ["1.22.x"]
         pnpm-version: [7]
     steps:
-      - name: Checkout [Pull Request]
-        uses: actions/checkout@v2
-        if: ${{ github.event_name == 'pull_request' }}
-        with:
-          ref: ${{ github.event.pull_request.head.sha }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fetch-depth: 0
+      # - name: Checkout [Pull Request]
+      #   uses: actions/checkout@v2
+      #   if: ${{ github.event_name == 'pull_request' }}
+      #   with:
+      #     ref: ${{ github.event.pull_request.head.sha }}
+      #     token: ${{ secrets.GITHUB_TOKEN }}
+      #     fetch-depth: 0
 
       - name: Checkout [Default Branch]
         uses: actions/checkout@v2

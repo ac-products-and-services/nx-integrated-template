@@ -24,7 +24,7 @@ jobs: # A workflow can have multiple jobs
         working-directory: ${{ github.workspace }}
     strategy:
       matrix:
-        node-version: [18]
+        node-version: [16]
         npm-version: [8]
         yarn-version: ["1.22.x"]
         pnpm-version: [7]

@@ -41,22 +41,6 @@
           "codeCoverage": true
         }
       }
-    },
-    "version": {
-      "executor": "@jscutlery/semver:version",
-      "options": {
-        "baseBranch": "main",
-        "preset": "conventional",
-        "tagPrefix": "${projectName}@"
-      }
-    },
-    "release": {
-      "executor": "nx:run-commands",
-      "outputs": [],
-      "options": {
-        "command": "npx semantic-release-plus --extends ./libs/sample-library-01/release.config.js",
-        "parallel": false
-      }
     }
   },
   "tags": []

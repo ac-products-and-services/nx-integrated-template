@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/amaralc/nx-integrated-template/compare/nx-integrated-template@1.0.2...nx-integrated-template@1.0.3) (2023-03-12)
+
+### Bug Fixes
+
+- adjust order ([12d3344](https://github.com/amaralc/nx-integrated-template/commit/12d3344cd518532392264b1f556a7acc4f566d4e))
+
 ## [1.0.2](https://github.com/amaralc/nx-integrated-template/compare/nx-integrated-template@1.0.1...nx-integrated-template@1.0.2) (2023-03-12)
 
 ### Bug Fixes

@@ -1,4 +1,4 @@
-console.log('feat');
+console.log('fix');
 
 export function sampleLibrary02(): string {
   console.log('breaking');

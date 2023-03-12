@@ -1,5 +1,5 @@
 {
-  "name": "@amaralc/sample-library-01",
+  "name": "@ac-products-and-services/sample-library-01",
   "author": {
     "name": "Calil Amaral",
     "email": "amaral.calil@gmail.com"
@@ -9,7 +9,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/amaralc/nx-integrated-template.git",
+    "url": "https://github.com/ac-products-and-services/nx-integrated-template.git",
     "directory": "../../dist/libs/sample-library-01"
   },
   "publishConfig": {

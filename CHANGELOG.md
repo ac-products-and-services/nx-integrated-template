@@ -1,3 +1,14 @@
+## [4.0.0](https://github.com/amaralc/nx-integrated-template/compare/v3.0.0...v4.0.0) (2023-03-12)
+
+
+### ⚠ BREAKING CHANGES
+
+* **lerna:** testing conventional commits
+
+### Features
+
+* **lerna:** testing conventional commits ([f28fba4](https://github.com/amaralc/nx-integrated-template/commit/f28fba459a2726b480c9ad199815757c561e51e1))
+
 ## [3.0.0](https://github.com/amaralc/nx-integrated-template/compare/v2.0.0...v3.0.0) (2023-03-12)
 
 

@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.0](https://github.com/amaralc/nx-integrated-template/compare/@amaralc/sample-library-02@2.1.1...@amaralc/sample-library-02@3.0.0) (2023-03-12)
+
+### ⚠ BREAKING CHANGES
+
+- add breaking log
+
+### Code Refactoring
+
+- add breaking log ([a9fcd87](https://github.com/amaralc/nx-integrated-template/commit/a9fcd8722aebddd80791868df5b124bbc72ed87c))
+
 ## [2.1.1](https://github.com/amaralc/nx-integrated-template/compare/@amaralc/sample-library-02@2.1.0...@amaralc/sample-library-02@2.1.1) (2023-03-12)
 
 ### Bug Fixes

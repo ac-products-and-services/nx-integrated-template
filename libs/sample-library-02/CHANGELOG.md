@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.2](https://github.com/ac-products-and-services/nx-integrated-template/compare/@ac-products-and-services/sample-library-02@1.0.1...@ac-products-and-services/sample-library-02@1.0.2) (2023-03-12)
+
+### Bug Fixes
+
+- force patch version ([bf1814e](https://github.com/ac-products-and-services/nx-integrated-template/commit/bf1814ead52b585c2098b6a6e70bb8bd722b529c))
+
 ## 1.0.1 (2023-03-12)
 
 ### ⚠ BREAKING CHANGES

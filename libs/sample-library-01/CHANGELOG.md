@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.2.2](https://github.com/amaralc/nx-integrated-template/compare/@amaralc/sample-library-01@1.2.1...@amaralc/sample-library-01@1.2.2) (2023-03-12)
+
+**Note:** Version bump only for package @amaralc/sample-library-01
+
 ## [1.2.1](https://github.com/amaralc/nx-integrated-template/compare/@amaralc/sample-library-01@1.2.0...@amaralc/sample-library-01@1.2.1) (2023-03-11)
 
 **Note:** Version bump only for package @amaralc/sample-library-01
